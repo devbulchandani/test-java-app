@@ -10,6 +10,18 @@ public class Transaction {
         this.type = type;
     }
 
+    public String getDescription() {
+        return description;
+    }
+
+    public double getAmount() {
+        return amount;
+    }
+
+    public String getType() {
+        return type;
+    }
+
     public void printDetails() {
         System.out.println("Description: " + description);
         System.out.println("Amount: ₹" + amount);
